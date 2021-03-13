@@ -3,7 +3,7 @@ const mercadopago = require('mercadopago')
 
 // Add credentials
 mercadopago.configure({
-	access_token: process.env.ML_ACCESS_TOKEN,
+	access_token: process.env.MP_ACCESS_TOKEN,
 })
 
 export default (req, res) => {

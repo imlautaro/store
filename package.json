@@ -10,6 +10,10 @@
 		"start": "nuxt start"
 	},
 	"dependencies": {
+		"mercadopago": "^1.5.5",
 		"nuxt": "^2.15.3"
+	},
+	"devDependencies": {
+		"@vercel/node": "^1.9.1"
 	}
 }
